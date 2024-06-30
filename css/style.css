@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: ubuntuduro;
+    src: url(/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family: ubuntufino;
+    src: url(/fonts/Ubuntu-Light.ttf);
+}
+
+.contacto {
+    text-align: center;
+    padding: 10px;
+    font-family: ubuntuduro;
+}
+
+.texto-intro {
+    font-family: ubuntuduro;
+}
+.titulo {
+    font-family: ubuntuduro;
+    text-align: center;
+    padding: 1rem;
+}
+.img-col {
+    max-width: 140px;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.long-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.small-photo {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.img-personas{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: ubuntufino;
+}
+
+.content h2 {
+    font-family: ubuntuduro;
+}
+
+.cont-personas {
+    margin-top: 100px;
+}
+.contenido-personas {
+font-family: ubuntufino;
+}
+.contenido-personas h3 {
+    font-family: ubuntuduro;
+}
+.texto-intro {
+    text-align: center;
+    margin-top: 20px;
+}
+.portada1 {
+    text-align: center;
+}
+.prod-img {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: #179DF7;
+}
+
+.prod-img:hover {
+    background-color: #179DF7;
+    padding: 50px;
+}
+
+.prod-nombre {
+    
+    font-size: 30px;
+
+}
+
+.nav-item {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+
+    font-family: ubuntufino;
+}
+
+.nav-item:hover {
+    background-color: #179DF7;
+    color: white;
+    font-family: ubuntuduro;
+}
+
+.link-contacto {
+    text-decoration: none;
+    color: #179DF7;
+    font-family: ubuntuduro;
+}
+.contacto-img {
+width: 600px;
+}
+
+.contacto-img2 {
+    width: 600px;
+ margin-left: 20px;
+    }
+.footer-container {
+    margin-top: 200px;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+
+.textarea {
+    width: 500px;
+    height: 120px;
+    resize: none;
+}
+
+.enviar {
+    font-family: ubuntufino;
+}
+
+.reset {
+    font-family: ubuntufino;
+}
+
+.enviar:hover {
+    font-family: ubuntuduro;
+    background-color: #179DF7;
+}
+
+.reset:hover {
+    font-family: ubuntuduro;
+    background-color: #179DF7;
+}
+
+.nosotros-titulo {
+ font-family: ubuntuduro;
+}
+
+.nosotros-texto {
+    font-family: ubuntufino;
+}
+
+.equipo {
+    max-width: 750px;
+}
+
+
+@media (max-width : 320px) {
+    .nav-item {
+        font-size: 7px;
+    }
+    .img-col {
+        max-width: 75px;
+        margin: 0 ;
+    }
+.prod-cont {
+    text-align: center;
+}
+}
+
+
+@media (max-width : 375px) {
+    .prod-cont {
+        text-align: center;
+    }
+}
+
+@media (max-width : 425px) {
+    .nav-item {
+        font-size: 9.2px;
+    }
+    .img-col {
+        max-width: 100px;
+        margin: 0 ;
+    }
+    .prod-cont {
+        text-align: center;
+    }
+}
+@media (max-width : 786px) {
+    .prod-img {
+        width: 200px;
+        height: 200px;
+    }titu
+
+    .prod-nombre {
+        font-size: 20px;
+    }
+}
+
+
+
