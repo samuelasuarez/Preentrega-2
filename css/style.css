@@ -242,6 +242,179 @@ width: 600px;
 }
 
 
+@media ( max-width : 320px) {
+.nav-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.home-contenedor {
+    display: flex;
+    flex-direction: column;
+}
+.small-photo {
+    width: 300px;
+}
+.footer-container {
+    border-top: solid;
+}
+
+.contacto-img2 {
+    max-width: 300px;
+}
+.contenedor-personas {
+    display: flex;
+    flex-direction: column;
+}
+.img-personas {
+    width: 300px;
+}
+.contenedor-form {
+    display: flex;
+    flex-direction: column;
+}
+.textarea {
+    font-size: 13px;
+    width: 300px;
+}
+.gallery__item--1 {
+ grid-column: span 3;
+}
+.gallery__item--2 {
+    grid-column: span 3;
+   }
+   .gallery__item--3 {
+    grid-column: span 3;
+   }
+   .gallery__item--4 {
+    grid-column: span 3;
+   }
+   .gallery__item--5 {
+    grid-column: span 3;
+   }
+   .gallery__item--6 {
+    grid-column: span 3;
+   }
+   .gallery__item--7 {
+    grid-column: span 3;
+   }
+}
 
 
+@media ( max-width : 375px) {
+    .nav-lista {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .home-contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .small-photo {
+        width: 300px;
+    }
+    .footer-container {
+        border-top: solid;
+    }
+    
+    .contacto-img2 {
+        max-width: 300px;
+    }
+    .contenedor-personas {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-personas {
+        width: 300px;
+    }
+    .contenedor-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .textarea {
+        font-size: 13px;
+        width: 300px;
+    }
+    .gallery__item--1 {
+     grid-column: span 3;
+    }
+    .gallery__item--2 {
+        grid-column: span 3;
+       }
+       .gallery__item--3 {
+        grid-column: span 3;
+       }
+       .gallery__item--4 {
+        grid-column: span 3;
+       }
+       .gallery__item--5 {
+        grid-column: span 3;
+       }
+       .gallery__item--6 {
+        grid-column: span 3;
+       }
+       .gallery__item--7 {
+        grid-column: span 3;
+       }
+    }
+
+    
+@media ( max-width : 425px) {
+    .nav-lista {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .home-contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .small-photo {
+        width: 400px;
+    }
+    .footer-container {
+        border-top: solid;
+    }
+    
+    .contacto-img2 {
+        max-width: 300px;
+    }
+    .contenedor-personas {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-personas {
+        width: 400px;
+    }
+    .contenedor-form {
+        display: flex;
+        flex-direction: column;
+    }
+    .textarea {
+        font-size: 13px;
+        width: 300px;
+    }
+    .gallery__item--1 {
+     grid-column: span 3;
+    }
+    .gallery__item--2 {
+        grid-column: span 3;
+       }
+       .gallery__item--3 {
+        grid-column: span 3;
+       }
+       .gallery__item--4 {
+        grid-column: span 3;
+       }
+       .gallery__item--5 {
+        grid-column: span 3;
+       }
+       .gallery__item--6 {
+        grid-column: span 3;
+       }
+       .gallery__item--7 {
+        grid-column: span 3;
+       }
+    }
 
